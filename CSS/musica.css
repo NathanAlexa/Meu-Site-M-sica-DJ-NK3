@@ -1,0 +1,68 @@
+.campo_music{ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: url(https://i.ibb.co/cbPgbZ8/Super-Mario.png);
+    background-size: 1274px;
+    background-position: 45%;
+    width: 923px;
+    height: 670px;
+    border-bottom: 22px solid rgb(48, 48, 48);
+    border-top: 22px solid rgb(58, 58, 58);
+    border-left: 22px solid rgb(46, 45, 45);
+    border-right: 22px solid rgb(53, 52, 52);
+    border-radius: 12px;
+    margin-top: 13px;
+}
+
+.img{
+    width: 633px;
+    animation:  animation 460ms infinite ease-in-out;
+}
+
+@keyframes animation {
+ 10%{
+    rotate: 1deg;
+    border-radius: 9999px;
+    transform: scale(1.2);
+ }
+ 13%{
+    rotate: -1deg;
+    border-radius: 83px;
+
+ }
+}
+
+.musica{
+    width: 733px;
+}
+
+.pausa_{
+    margin-top: -37px;
+    margin-left: 110px;
+     zoom: 423%;
+     cursor: pointer;
+     transition: 2s;
+}
+
+.pausa_:hover{
+    box-shadow: 4px 4px 4px black;
+    transform: scale(1.5);
+ }
+
+.reprodu_{
+    margin-left: 83px;
+    zoom: 423%;
+    cursor: pointer;
+    transition: 2s;
+}
+.reprodu_:hover{
+
+   transform: scale(1.5);
+}
+
+
+.buttons_Play_Pause{
+margin-top: -83px;
+
+}
